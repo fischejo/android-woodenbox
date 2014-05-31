@@ -15,4 +15,8 @@ Features:
  * dictionary interface
  * public content provider (api)
  * flexibel but still simple
+ * photo & sound support
+ * import of all common file types (open document, excel, xml, csv...)
+ * pen & handwriting support
+ * open source
 
