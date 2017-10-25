@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<de.pecheur.colorbox.port.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="?android:attr/listPreferredItemHeightSmall"
+              android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+              android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+
+    <de.pecheur.colorbox.editor.PlayButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_play_holo_light"
+            android:id="@+id/playButton"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/playButton"
+            android:layout_toLeftOf="@+id/checkBox"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:saveEnabled="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:id="@android:id/checkbox"/>
+</de.pecheur.colorbox.port.CheckableRelativeLayout>

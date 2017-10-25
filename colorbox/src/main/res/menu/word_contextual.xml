@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">	
+	
+	<item android:id="@+id/word_select_all"
+	    android:showAsAction="always"
+	    android:title="@string/word_activity_menu_select_all"
+      	android:icon="@drawable/ic_action_select_all_holo_dark"  />
+	
+	<item android:id="@+id/word_reverse"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/word_activity_menu_reverse"
+      	android:icon="@drawable/ic_action_reverse_holo_dark"  />
+
+	<item android:id="@+id/word_move"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/word_activity_menu_move"
+      	android:icon="@drawable/ic_action_collection_holo_dark"  />
+	
+	<item android:id="@+id/word_undo"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/word_activity_menu_undo"
+      	android:icon="@drawable/ic_action_undo_holo_dark"  />
+	
+	<item android:id="@+id/word_delete"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/word_activity_menu_delete"
+    	android:icon="@drawable/ic_action_discard_holo_dark" />
+
+
+</menu>

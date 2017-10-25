@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <!-- Card visible layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/background"
+        android:background="@drawable/attachment_layout_background_normal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/editor_attachment_view_padding">
+
+        <!-- header layout -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- overflow button. It has a Popup Menu -->
+            <ImageButton
+                android:id="@+id/overflow_button"
+                android:layout_width="wrap_content"
+                android:background="@drawable/attachment_menu_overflow_button"
+                android:layout_marginRight="3dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Main Content View -->
+        <FrameLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/attachment_layout_shadow"
+            />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="pinned_text_key"
+        android:title="@string/settings_editor_text_title"
+        android:summary="@string/settings_editor_text_summary"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+            android:key="pinned_example_key"
+            android:title="@string/settings_editor_example_title"
+            android:summary="@string/settings_editor_example_summary"
+            android:defaultValue="false" />
+
+    <CheckBoxPreference
+            android:key="pinned_audio_key"
+            android:title="@string/settings_editor_audio_title"
+            android:summary="@string/settings_editor_audio_summary"
+            android:defaultValue="false" />
+</PreferenceScreen>

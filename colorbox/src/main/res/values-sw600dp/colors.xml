@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dual_pane_background">#efefef</color>
+    <color name="dual_pane_strip_background">#aaefefef</color>
+</resources>

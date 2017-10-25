@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/fischejo/android/workspace/colorbox/colorbox/build/intermediates/pre-dexed/debug/classes-25b0373f3e47d9096d68925219ca0cca658ef6a2.jar"
+        jar="/home/fischejo/android/workspace/colorbox/colorbox/build/intermediates/exploded-aar/colorbox/dictionary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b69f01bd08b346ce7812581ebbb348215e57ef24"/>
+    <item
+        dex="/home/fischejo/android/workspace/colorbox/colorbox/build/intermediates/pre-dexed/debug/classes-e396eb1af9092817039c8c6905a944ea6654a009.jar"
+        jar="/home/fischejo/android/workspace/colorbox/colorbox/build/intermediates/exploded-aar/colorbox/pinned-section-listview/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="56160ce43e122c5d059c25d31c41b236aebefbbb"/>
+    <item
+        dex="/home/fischejo/android/workspace/colorbox/colorbox/build/intermediates/pre-dexed/debug/support-v4-18.0.0-b1d91e322ac6aac597edfeafe28ef5e7982b8638.jar"
+        jar="/home/fischejo/android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+
+</pre-dex-items>

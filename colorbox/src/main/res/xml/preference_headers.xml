@@ -1,0 +1,27 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.BoxPreferenceFragment"
+        android:title="@string/settings_box_title" />
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.QueryPreferenceFragment"
+        android:title="@string/settings_query_title" />
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.EditorPreferenceFragment"
+        android:title="Editor" />
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.NotificationFragment"
+        android:title="@string/settings_notification_title" />
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.BackupPreferenceFragment"
+        android:title="@string/settings_backup_title" />
+
+    <header
+        android:fragment="de.pecheur.colorbox.settings.InformationPreferenceFragment"
+        android:title="@string/settings_information_title" />
+
+</preference-headers>

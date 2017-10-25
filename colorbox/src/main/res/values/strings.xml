@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- application -->
+    <string name="app_name">Colorbox</string>
+    <string name="app_version">1.0-back to the roots</string>
+    <string name="app_author">Fischer Johannes</string>
+    <string name="app_description">BliBlaBlub beschreibung</string>
+
+    <!-- permissions -->
+    <string name="permission_read">Darf Vokabeln lesen</string>
+    <string name="permission_write">Darf Vokabeln schreiben</string>
+
+    <!-- unit -->
+    <string name="unit_activity_title">Kapitel-Übersicht</string>
+    <string name="unit_activity_menu_add">Kapitel hinzufügen</string>
+    <string name="unit_activity_menu_settings">Einstellungen</string>
+    <string name="unit_list_empty_hint">Keine Kapitel</string>
+    <string name="unit_list_item_subtitle">{0,choice,0#Keine Vokabeln verfügbar|1#1 Vokabel verfügbar|1&lt;{0} Vokabeln verfügbar}</string>
+    <string name="unit_list_header_title" formatted="false">%1$s - %2$s</string>
+
+    <string name="unit_editor_title_hint">Kapitelname</string>
+    <string name="unit_editor_title_header">Kapitel</string>
+    <string name="unit_editor_language_header">Sprache</string>
+    <string name="unit_editor_delete">Kapitel löschen</string>
+    <string name="unit_editor_dialog_delete" formatted="false">Möchten Sie das Kapitel %1$s löschen?</string>
+
+    <!-- settings -->
+    <string name="settings_activity_title">Einstellungen</string>
+
+    <string name="settings_backup_title">Backup</string>
+    <string name="settings_backup_export_title">Backup erstellen</string>
+
+    <string name="settings_box_title">Stufen</string>
+    <string name="settings_box_list_subtitle">%s</string>
+
+    <string name="settings_information_title">Informationen</string>
+    <string name="settings_information_author_title">Entwickler</string>
+    <string name="settings_information_design_title">Design</string>
+    <string name="settings_information_design_summary">Johannes Fischer</string>
+    <string name="settings_information_translator_title">Übesetzer</string>
+    <string name="settings_information_translator_summary">Johannes Fischer\nAndreas Fischer\nJeanne Sales</string>
+    <string name="settings_information_version_title">Version</string>
+    <string name="settings_information_license_title">Lizenz</string>
+    <string name="settings_information_license_summary">Apache License 2.0</string>
+    <string name="settings_information_feedback_title">Feedback</string>
+    <string name="settings_information_feedback_summary">Entwickler per E-Mail kontaktieren</string>
+    <string name="settings_information_feedback_subject">Feedback: Colorbox</string>
+    <string name="settings_information_feedback_mailto">johannes.m.fischer@tum.de</string>
+    <string name="settings_information_feedback_dialog">Senden mit...</string>
+
+    <string name="settings_query_title">Abfrage</string>
+    <string name="settings_query_count_title">Stapelgröße</string>
+    <string name="settings_query_option_title">Vokabel falsch</string>
+
+    <string name="settings_notification_title">Benachrichtigungen</string>
+    <string name="settings_notification_check_title">Erinnerungen</string>
+    <string name="settings_notification_check_summary">täglich an Abfrage erinnern</string>
+    <string name="settings_notification_time_title">erinnern um:</string>
+    <string name="settings_notification_time_summary" formatted="false">%1$s Uhr</string>
+    <string name="settings_notification_snooze_title">Erinnerungen</string>
+    <string name="settings_notification_snooze_summary">täglich an Abfrage erinnern</string>
+
+    <string name="settings_editor_text_title">Text anheften</string>
+    <string name="settings_editor_text_summary">Heftet automatisch ein Textfeld an.</string>
+    <string name="settings_editor_example_title">Beispiel anheften</string>
+    <string name="settings_editor_example_summary">Heftet automatisch ein Beispielfeld an.</string>
+    <string name="settings_editor_audio_title">Tonaufnahme anheften</string>
+    <string name="settings_editor_audio_summary">Heftet automatisch ein Tonaufnahmefeld an.</string>
+
+    <!-- notification -->
+    <string name="notification_title">Vokabel-Abfrage</string>
+    <string name="notification_text">Kapitel sind zur Abfrage verfügbar</string>
+    <string name="notification_snooze">Später erinnern</string>
+
+    <!-- export -->
+    <string name="export_dialog_title">Erstellen</string>
+    <string name="export_dialog_progress" formatted="false">%1d/%2d Vokabeln</string>
+    <string name="export_dialog_error">Die Datei konnte leider nicht erstellt werden.</string>
+
+    <!-- backup -->
+    <string name="backup_dialog_title">Backup</string>
+    <string name="backup_dialog_message" formatted="false">Die Datei %1s befindet sich unter %2s</string>
+
+    <!-- share -->
+    <string name="share_dialog_title">Teilen mit</string>
+
+    <!-- actionbar -->
+    <string name="actionbar_cancel">Abbrechen</string>
+    <string name="actionbar_done">Fertig</string>
+    <string name="actionbar_back">Zurück</string>
+
+    <!-- import -->
+    <string name="import_spinner_subtitle">@string/unit_list_header_title</string>
+
+    <!-- word -->
+    <string name="word_activity_subtitle">@string/unit_list_header_title</string>
+    <string name="word_activity_menu_add">Vokabel hinzufügen</string>
+    <string name="word_activity_menu_search">Suche</string>
+    <string name="word_activity_menu_addon">Addons</string>
+    <string name="word_activity_menu_share">Teilen</string>
+    <string name="word_activity_menu_move">Verschieben</string>
+    <string name="word_activity_menu_reverse">Seiten vertauschen</string>
+    <string name="word_activity_menu_edit">Bearbeiten</string>
+    <string name="word_activity_menu_query">Abfrage</string>
+    <string name="word_activity_menu_delete">Löschen</string>
+    <string name="word_activity_menu_undo">Lernfortschritt zurücksetzen</string>
+    <string name="word_activity_menu_select_all">Alles auswählen</string>
+    <string name="word_activity_menu_shortcut">Shortcut erstellen</string>
+
+    <plurals name="word_activity_menu_hint">
+        <item quantity="one">%d Vokabel ausgewählt</item>
+        <item quantity="other">%d Vokabeln ausgewählt</item>
+    </plurals>
+
+    <string name="word_list_search_hint">Keine Vokabeln gefunden!</string>
+    <string name="word_list_empty_hint">Das Kapitel ist leer!</string>
+    <string name="word_list_no_unit_hint">Wähle ein Kapitel aus!</string>
+
+    <plurals name="word_list_header_info">
+        <item quantity="one">%d Vokabel</item>
+        <item quantity="other">%d Vokabeln</item>
+    </plurals>
+    <plurals name="word_dialog_delete">
+        <item quantity="one">Diese Vokabel löschen?</item>
+        <item quantity="other">%d Vokabeln löschen?</item>
+    </plurals>
+    <plurals name="word_dialog_undo">
+        <item quantity="one">Lernfortschritt dieser Vokabel zurücksetzen?</item>
+        <item quantity="other">Lernfortschritt von %d Vokabeln zurücksetzen?</item>
+    </plurals>
+
+    <string name="word_dialog_move_not_available">Um Vokablen in ein anderes Kapitel verschieben
+   	    zu können, müssen Sie zuerst ein Kapitel mit gleichen Sprach-Einstellungen erstellen.</string>
+    <string name="word_dialog_move_title">Verschieben nach</string>
+
+    <!-- editor -->
+    <string name="editor_insert_toast">Vokabel gespeichert.</string>
+
+    <string name="editor_text_hint">Übersetzung</string>
+    <string name="editor_example_hint">Beispielsatz</string>
+
+
+
+    <!-- addon -->
+    <plurals name="addon_success_toast">
+        <item quantity="one">Eine Vokabel wurde hinzugefügt.</item>
+        <item quantity="other">%d Vokabeln wurden hinzugefügt.</item>
+    </plurals>
+
+    <string name="addon_error_toast">Es konnten nicht alle Vokabeln hinzugefügt werden.</string>
+
+    <!-- boxes -->
+    <string name="box_0">Anfang</string>
+    <string name="box_1">Stufe 1</string>
+    <string name="box_2">Stufe 2</string>
+    <string name="box_3">Stufe 3</string>
+    <string name="box_4">Stufe 4</string>
+    <string name="box_5">Stufe 5</string>
+    <string name="box_6">Stufe 6</string>
+    <string name="box_7">Stufe 7</string>
+    <string name="box_8">Stufe 8</string>
+    <string name="box_9">Stufe 9</string>
+    <string name="box_10">Stufe 10</string>
+
+    <!-- card -->
+    <string name="card_menu_side">Abfrageseite</string>
+    <string name="card_side_front">%1$s → %2$s</string>
+    <string name="card_side_back">%2$s → %1$s</string>
+    <string name="card_side_both">%1$s ↔ %2$s</string>
+    <string name="card_box">Box %1$d</string>
+    <string name="card_error_toast">Das Kapitel existiert nicht mehr.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

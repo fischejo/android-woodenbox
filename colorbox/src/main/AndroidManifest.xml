@@ -1,0 +1,105 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.pecheur.colorbox"
+    android:versionCode="1"
+    android:versionName="@string/app_version" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+    <permission
+        android:name="colorbox.permission.WRITE_VOCABULARY"
+        android:label="@string/permission_write"
+        android:protectionLevel="normal" />
+    
+    <permission
+        android:name="colorbox.permission.READ_VOCABULARY"
+        android:label="@string/permission_read"
+        android:protectionLevel="normal" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:description="@string/app_description"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:restoreAnyVersion="true"
+        android:theme="@style/Theme.Application" >
+
+
+        <activity android:name=".port.ImportActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/zip"/>
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="@string/settings_activity_title" />
+        
+        <activity
+            android:name=".card.CardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Card" >
+            
+            <intent-filter>
+                <action android:name=".android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".editor.EditorActivity" />
+        
+        <activity
+            android:name=".unit.UnitEditorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+        </activity>
+        
+        <activity
+            android:name=".detail.DetailActivity"
+            android:launchMode="singleTask"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        
+        <activity 
+            android:name=".unit.UnitListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".database.VocabularyProvider"
+            android:authorities="de.pecheur.colorbox.provider"
+
+            android:exported="false"
+            android:readPermission="colorbox.permission.READ_VOCABULARY"
+            android:syncable="true"
+            android:writePermission="colorbox.permission.WRITE_VOCABULARY" >
+        </provider>
+
+        
+        <service android:name=".settings.NotificationService"
+            android:exported="false">
+        </service>
+
+
+
+
+    </application>
+
+</manifest>

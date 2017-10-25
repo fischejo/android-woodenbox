@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- left border -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/mid"
+        android:background="@drawable/border_left" />
+
+    <!-- static width for tablets -->
+
+    <ScrollView
+        android:id="@id/mid"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                style="@style/HeaderTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unit_editor_title_header" >
+            </TextView>
+
+                      
+	            <EditText
+		            android:id="@+id/title"
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:ems="10"
+		            android:imeOptions="flagNoExtractUi"
+		            android:hint="@string/unit_editor_title_hint"
+		            android:singleLine="true" >
+	
+		            <requestFocus />
+		        </EditText>
+	          
+   
+	        
+            <TextView
+                style="@style/HeaderTextViewStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/unit_editor_language_header" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp" >
+
+                <Spinner
+                    android:id="@+id/a_language"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/b_language"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- right border -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/mid"
+        android:background="@drawable/border_right" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:focusable="false" >
+
+   <LinearLayout
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical"
+      	android:layout_alignParentLeft="true"
+      	android:layout_toLeftOf="@+id/progress"
+    	android:layout_centerVertical="true">
+
+     	<TextView
+          	android:id="@+id/text1"
+           	android:layout_height="wrap_content"
+           	android:layout_width="wrap_content"
+           	android:textAppearance="?android:attr/textAppearanceMedium"
+           	android:textColor="?android:attr/textColorPrimary"
+           	android:ellipsize="end"
+          	android:singleLine="true" />
+
+    	<TextView
+         	android:id="@+id/text2"
+          	android:layout_height="wrap_content"
+           	android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+          	android:textColor="?android:attr/textColorSecondary"
+           	android:ellipsize="end"
+           	android:singleLine="true" />
+	</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progressbar_stars"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

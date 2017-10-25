@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="86400000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_1"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_1" />
+    
+    <ListPreference
+        android:defaultValue="172800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_2"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_2" />
+    
+    <ListPreference
+        android:defaultValue="259200000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_3"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_3" />
+    
+    <ListPreference
+        android:defaultValue="345600000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_4"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_4" />
+    
+    <ListPreference
+        android:defaultValue="518400000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_5"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_5" />
+    
+    <ListPreference
+        android:defaultValue="604800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_6"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_6" />
+
+    <ListPreference
+        android:defaultValue="604800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_7"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_7" />
+
+    <ListPreference
+        android:defaultValue="604800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_8"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_8" />
+
+    <ListPreference
+        android:defaultValue="604800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_9"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_9" />
+
+    <ListPreference
+        android:defaultValue="604800000"
+        android:entries="@array/settings_box_entries"
+        android:entryValues="@array/settings_box_values"
+        android:key="box_10"
+        android:summary="@string/settings_box_list_subtitle"
+        android:title="@string/box_10" />
+
+</PreferenceScreen>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp">
+
+    <!-- edit text field -->
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/attachment_layout_background_normal">
+
+        <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:minLines="3"
+                android:gravity="center_vertical"
+                android:hint="@string/editor_text_hint"
+                android:id="@+id/edit"/>
+    </FrameLayout>
+    <!-- shadow -->
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/attachment_layout_shadow"
+            android:layout_marginBottom="12dp"/>
+
+
+    <!-- edit example field -->
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/attachment_layout_background_normal">
+
+        <de.pecheur.colorbox.editor.InstantAutoComplete
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:minLines="2"
+                android:padding="8dp"
+                android:gravity="center_vertical"
+                android:hint="@string/editor_example_hint"
+                android:id="@+id/example"/>
+    </FrameLayout>
+    <!-- shadow -->
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/attachment_layout_shadow"
+            android:layout_marginBottom="12dp"/>
+
+
+    <!-- audio field -->
+    <de.pecheur.colorbox.editor.PronunciationView
+                android:id="@+id/pronunciations"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:divider="?android:listDivider"
+                android:background="@drawable/attachment_layout_background_normal"
+                android:showDividers="middle"
+                android:layout_height="wrap_content"/>
+
+
+    <!-- shadow -->
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/attachment_layout_shadow"/>
+
+</LinearLayout>

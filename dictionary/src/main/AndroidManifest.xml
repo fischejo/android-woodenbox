@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.pecheur.dictionary">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+
+
+        <service android:name="de.pecheur.dictionary.SimpleDictionaryService"
+                 android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.github.woodenbox.DICTIONARY"/>
+                <data android:mimeType="language/*"></data>
+                <category android:name="dictionary.intent.category.PRONUNCIATION"></category>
+                <category android:name="dictionary.intent.category.EXAMPLE"></category>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.github.woodenbox.BIDIRECTIONAL"/>
+                <data android:mimeType="language/*"></data>
+                <category android:name="dictionary.intent.category.PRONUNCIATION"></category>
+                <category android:name="dictionary.intent.category.EXAMPLE"></category>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

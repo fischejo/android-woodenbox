@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_query_option_entries">
+        <item>eine Stufe zurück</item>
+        <item>nichts</item>
+        <item>zurück zum Anfang</item>
+    </string-array>
+
+    <string-array name="settings_query_option_values">
+        <item>back</item>
+        <item>nothing</item>
+        <item>beginning</item>
+    </string-array>
+    
+    
+    <string-array name="settings_query_count_entries">
+        <item>10 Vokabeln</item>
+        <item>15 Vokablen</item>
+        <item>20 Vokabeln</item>
+        <item>25 Vokabeln</item>
+        <item>30 Vokabeln</item>
+        <item>35 Vokabeln</item>
+    </string-array>
+
+    <string-array name="settings_query_count_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+    </string-array>
+    
+    
+    <string-array name="settings_box_entries">
+        <item>keine Wartezeit</item>
+        <item>1 Tag</item>
+        <item>2 Tage</item>
+        <item>3 Tage</item>
+        <item>4 Tage</item>
+        <item>5 Tage</item>
+        <item>6 Tage</item>
+        <item>7 Tage</item>
+    </string-array>
+
+    <string-array name="settings_box_values">
+        <item>0</item>
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>259200000</item>
+        <item>345600000</item>
+        <item>518400000</item>
+        <item>604800000</item>
+        <item>691200000</item>
+    </string-array>
+
+    <string-array name="settings_box_navigation">
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+    </string-array>
+
+
+    <string-array name="test">
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+        <item>5 Stufen</item>
+        <item>6 Stufen</item>
+        <item>7 Stufen</item>
+        <item>8 Stufen</item>
+        <item>9 Stufen</item>
+        <item>10 Stufen</item>
+    </string-array>
+
+    <string-array name="boxes">
+        <item>@string/box_0</item>
+        <item>@string/box_1</item>
+        <item>@string/box_2</item>
+        <item>@string/box_3</item>
+        <item>@string/box_4</item>
+        <item>@string/box_5</item>
+        <item>@string/box_6</item>
+        <item>@string/box_7</item>
+        <item>@string/box_8</item>
+        <item>@string/box_9</item>
+        <item>@string/box_10</item>
+    </string-array>
+
+    <string-array name="card_side_entries">
+        <item>→</item>
+        <item>←</item>
+        <item>↔</item>
+    </string-array>
+    
+   
+</resources>

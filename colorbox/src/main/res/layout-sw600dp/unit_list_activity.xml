@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/dual_pane_strip_width_negative"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/unit_fragment"
+            android:name="de.pecheur.colorbox.unit.UnitListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/dual_pane_strip_width"
+        android:layout_height="match_parent"
+        android:background="@color/dual_pane_strip_background" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:background="@color/dual_pane_background"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/word_fragment"
+            android:name="de.pecheur.colorbox.detail.DetailFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

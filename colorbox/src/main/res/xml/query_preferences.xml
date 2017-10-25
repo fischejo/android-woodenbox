@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="beginning"
+        android:entries="@array/settings_query_option_entries"
+        android:entryValues="@array/settings_query_option_values"
+        android:key="query_option"
+        android:title="@string/settings_query_option_title" />
+    
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/settings_query_count_entries"
+        android:entryValues="@array/settings_query_count_values"
+        android:key="query_count"
+        android:title="@string/settings_query_count_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- primary style for application-->
+    <style name="Theme.Application" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!-- listview -->
+        <item name="android:listPreferredItemPaddingLeft">8dip</item>
+        <item name="android:listPreferredItemPaddingRight">8dip</item>
+        <item name="android:dividerPadding">8dp</item>
+
+     
+    </style>
+
+    <!-- style for card.CardActivity -->
+    <style name="Theme.Card" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Card</item>
+   	</style>
+
+     <style name="ActionBar.Solid.Card" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+         <item name="android:background">@drawable/ab_background</item>
+    </style>
+ 
+
+    <style name="HeaderTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingRight</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+    <style name="NotificationSecondaryText">
+    </style>
+
+</resources>
